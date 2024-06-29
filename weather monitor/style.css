@@ -1,0 +1,85 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+body{
+    background-color: black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    margin: 7rem 35rem;
+    border-radius: 2rem;
+    height: 28rem;
+    width: 20rem;
+    border: 1px solid white;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2rem;
+}
+.search{
+    border-radius: 1rem;
+    padding: 6px;
+    margin: 2rem;
+    height: 2rem;
+    width: 15rem;
+    color: gray;
+}
+.btn{
+    cursor:pointer;
+    margin-left: -1.6rem;
+    padding-top: 2px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.btn img{
+    width: 1rem;
+    height: 1rem;
+}
+.temperature{
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.temperature img{
+    margin-top: -9px;
+    height: 10rem;
+    width: 10rem;
+}
+.temperature p{
+    
+    font-size: 1.8rem;
+
+}
+.footer{
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.humidity_container, .windspeed{
+    display: flex;
+    gap: 5px;
+}
+.humidity_container img, .windspeed img{
+    height: 3rem;
+    width: 3rem; 
+}
+.information{
+    display: none;
+}
